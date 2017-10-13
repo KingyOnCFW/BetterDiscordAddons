@@ -11,7 +11,7 @@ class BlurNSFW {
 
 	constructor() {
 		this.initialized = false;
-		this.style = `:root {--blur-nsfw: 10px; --blur-nsfw-time: 200ms;}
+		this.style = `:root {--blur-nsfw: 50px; --blur-nsfw-time: 500ms;}
 		.attachment-image img.blur:hover, .embed-thumbnail img.blur:hover, .attachment-image canvas.blur:hover, .embed-thumbnail canvas.blur:hover, .attachment-image video.blur:hover, .embed-thumbnail video.blur:hover {
 			transition: var(--blur-nsfw-time) cubic-bezier(.2, .11, 0, 1) !important;
 			filter: blur(0px) !important;
